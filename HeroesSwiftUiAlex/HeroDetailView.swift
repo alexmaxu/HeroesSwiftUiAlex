@@ -34,6 +34,8 @@ struct HeroDetailView: View {
                 .bold()
                 .padding(.top)
             Text(hero.descripcion ?? hero.historia ?? "no hay descripcion" )
+                .padding(.leading)
+                .padding(.trailing)
             Spacer()
         }
         .padding(.top, 20)
