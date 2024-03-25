@@ -8,14 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let heroes = getHeroes()
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            List(heroes) { hero in
+                NavigationLink {
+                    HeroDetailView(hero: hero)
+                } label: {
+                    ImageHeroView(hero: hero)
+                }
+            }
         }
-        .padding()
     }
 }
 
