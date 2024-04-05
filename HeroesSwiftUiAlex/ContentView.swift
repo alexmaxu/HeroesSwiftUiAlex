@@ -15,7 +15,9 @@ struct ContentView: View {
         NavigationView {
             List(heroes) { hero in
                 NavigationLink {
-                    HeroDetailView(hero: hero)
+                    ScrollView {
+                        HeroDetailView(hero: hero)
+                    }
                 } label: {
                     ImageHeroView(hero: hero)
                 }

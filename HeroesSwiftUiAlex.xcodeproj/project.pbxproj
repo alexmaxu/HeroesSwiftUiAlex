@@ -19,6 +19,7 @@
 		5FA4A88F2BAE33A90072B834 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FA4A88E2BAE33A90072B834 /* Preview Assets.xcassets */; };
 		5FA4A8972BAE33D80072B834 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA4A8962BAE33D80072B834 /* Model.swift */; };
 		5FA4A8992BAE34050072B834 /* SuperHeroes.json in Resources */ = {isa = PBXBuildFile; fileRef = 5FA4A8982BAE34050072B834 /* SuperHeroes.json */; };
+		5FB75F0C2BB6AE4B00D87206 /* HeroesGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB75F0B2BB6AE4B00D87206 /* HeroesGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		5FA4A88E2BAE33A90072B834 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5FA4A8962BAE33D80072B834 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		5FA4A8982BAE34050072B834 /* SuperHeroes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SuperHeroes.json; sourceTree = "<group>"; };
+		5FB75F0B2BB6AE4B00D87206 /* HeroesGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 			children = (
 				5FA4A8872BAE33A60072B834 /* HeroesSwiftUiAlexApp.swift */,
 				5F70C80F2BB22C04008CFAF0 /* HeroesTabView.swift */,
+				5FB75F0A2BB6ADC400D87206 /* Grid galeria */,
 				5F70C80A2BB21DEF008CFAF0 /* Nueva manera navigationStack */,
 				5F70C8072BB21D71008CFAF0 /* Lista antigua */,
 				5FA4A8952BAE33CA0072B834 /* Model */,
@@ -113,6 +116,14 @@
 				5FA4A8982BAE34050072B834 /* SuperHeroes.json */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		5FB75F0A2BB6ADC400D87206 /* Grid galeria */ = {
+			isa = PBXGroup;
+			children = (
+				5FB75F0B2BB6AE4B00D87206 /* HeroesGrid.swift */,
+			);
+			name = "Grid galeria";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +204,7 @@
 				5FA4A88A2BAE33A60072B834 /* ContentView.swift in Sources */,
 				5F6E773B2BB176EB0037D5E4 /* ImageHeroView.swift in Sources */,
 				5FA4A8882BAE33A60072B834 /* HeroesSwiftUiAlexApp.swift in Sources */,
+				5FB75F0C2BB6AE4B00D87206 /* HeroesGrid.swift in Sources */,
 				5F70C80C2BB227AB008CFAF0 /* HeroCellView.swift in Sources */,
 				5F70C80E2BB228D9008CFAF0 /* HeroDetailNavStack.swift in Sources */,
 			);

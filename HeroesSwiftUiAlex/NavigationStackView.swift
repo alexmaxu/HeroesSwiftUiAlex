@@ -23,7 +23,9 @@ struct NavigationStackView: View {
             }
             .navigationTitle("Heroes")
             .navigationDestination(for: Hero.self) { hero in
-                HeroDetailNavStack(hero: hero)
+                ScrollView {
+                    HeroDetailNavStack(hero: hero)
+                }
             }
         }
     }
